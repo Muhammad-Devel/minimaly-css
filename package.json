@@ -1,0 +1,20 @@
+{
+  "name": "minimaly-css",
+  "version": "1.1.0",
+  "description": "Minimal, semantic, avtomatik responsiv va interaktiv CSS framework",
+  "main": "dist/index.css",
+  "style": "dist/index.css",
+  "scripts": {
+    "build": "cat src/*.css > dist/index.css && cp src/minimaly.js dist/minimaly.js"
+  },
+  "keywords": [
+    "css",
+    "responsive",
+    "framework",
+    "minimal",
+    "semantic",
+    "ui"
+  ],
+  "author": "Muhammad J.A",
+  "license": "MIT"
+}
